@@ -1,4 +1,4 @@
-# food-recipe-creator
+# Veggie Recipe Creator
 
 ## Project setup
 ```

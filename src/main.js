@@ -1,4 +1,15 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import store from "./store"
+import VueSmoothScroll from 'vue3-smooth-scroll'
+// import VueAxios from 'vue-axios'
+// import axios from 'axios'
 
-createApp(App).mount('#app')
+// Vue.use(VueAxios, axios)
+
+const app = createApp(App)
+app.use(store)
+app.use(VueSmoothScroll,{
+	updateHistory: false
+})
+app.mount('#app')
