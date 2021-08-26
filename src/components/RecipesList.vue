@@ -1,34 +1,42 @@
 <template>
-    <div id="recipes-list" class="container">
-        <h1 class="font-primary-bold">
+    <div id="recipes-list" class="container md:mx-auto md:max-w-5xl">
+        <div class="font-primary-bold text-4xl">
             Here are some recipes for you:
-        </h1>
-        <div class="recipes-list">
-            <div v-for="(item, index) in list" :key="index" class="recipe">
-                <div class="recipe-container">
-                    <img v-if="item.image" :src="item.image" class="" alt="" />
-                    <img
-                        v-else
-                        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.KrGAKEXgYL0tirUR-W0qbgHaE8%26pid%3DApi&f=1"
-                        class=""
-                        alt=""
-                    />
-                    <div class="recipe-info">
-                        <h2 class="font-primary-bold">
+        </div>
+        <div
+            class="grid grid-cols-1 md:grid-cols-3 md:gap-12 gap-6 my-10 md:items-center md:justify-center select-none"
+        >
+            <div v-for="(item, index) in list" :key="index">
+                <div
+                    class="flex flex-col items-center bg-white shadow-md rounded-lg md:transition-all md:duration-200 hover:shadow-xl"
+                >
+                    <div class="h-32 w-full ">
+                        <img
+                            v-if="item.image"
+                            :src="item.image"
+                            class="h-full w-full object-cover rounded-t-lg"
+                            alt=""
+                        />
+                        <img
+                            v-else
+                            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.KrGAKEXgYL0tirUR-W0qbgHaE8%26pid%3DApi&f=1"
+                            class="h-full w-full object-cover rounded-t-lg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="flex flex-col justify-around p-3 w-full">
+                        <div class="font-primary-bold text-xl text-left h-16">
                             {{ smallTitle(item.title) }}
-                        </h2>
-                        <div class="font-primary-regular recipe-details">
-                            <div><b>Time:</b> {{ item.readyInMinutes }}</div>
-                            <div><b>Servings:</b> {{ item.servings }}</div>
-                            <div v-if="item.dishTypes">
+                        </div>
+                        <div class="font-primary-regular grid grid-rows-3 gap-4 my-4">
+                            <div class="text-left"><b>Time:</b> {{ item.readyInMinutes }}</div>
+                            <div class="text-left"><b>Servings:</b> {{ item.servings }}</div>
+                            <div class="text-left" v-if="item.dishTypes">
                                 <b>Dish type: </b>
-                                <span style="text-transform: capitalize;">{{ item.dishTypes[0] || 'Just food' }}</span>
+                                <span class="capitalize">{{ item.dishTypes[0] || 'Just food' }}</span>
                             </div>
                         </div>
-                        <div
-                            @click="checkTheFullRecipe(item.sourceUrl)"
-                            class="font-primary-regular get-button check-recipes"
-                        >
+                        <div @click="checkTheFullRecipe(item.sourceUrl)" class="font-primary-regular get-button">
                             Check the full recipe
                         </div>
                     </div>
@@ -59,89 +67,3 @@ export default {
     },
 };
 </script>
-
-<style scoped>
-.recipe-container {
-    background: #f7fafc;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-#recipes-list {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: auto;
-    margin-top: auto;
-    margin: auto;
-    padding: 1.5rem;
-}
-h1 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-.recipes-list {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.recipe-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height: 100%;
-}
-.recipe-container img {
-    width: 100%;
-    height: 9rem;
-    object-fit: cover;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-}
-.recipe-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-    padding: 0.75rem;
-}
-.recipe-info h2 {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-    height: 4rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    text-align: left;
-}
-.recipe-details {
-    /* flex flex-col items-start justify-between py-2 font-primary-regular recipe-details */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-.recipe-details div {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-/* desktop */
-@media (min-width: 768px) {
-    .recipes-list {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    .recipe-info h2 {
-        font-size: 1.25rem;
-        line-height: 1.75rem;
-        height: 6rem;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        text-align: left;
-    }
-}
-</style>

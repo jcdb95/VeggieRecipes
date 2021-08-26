@@ -1,7 +1,9 @@
+import creds from '/src/creds.json'
+
 export default {
 	recipes:[],
 	query:'',
-	apiKey:'',
+	apiKey: creds.apiKey,
 	glutenFree:false,
 	vegan:false,
 	inAHurry:false,

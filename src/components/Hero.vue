@@ -1,27 +1,27 @@
 <template>
-    <div class="page-container container">
-        <div class="hero-container ">
-            <div class="text-hero">
-                <div class="font-primary-thin title">
+    <div class="container h-screen flex md:mx-auto my-auto">
+        <div class="flex flex-col items-center justify-center md:grid md:grid-cols-2 md:gap-6 md:mx-auto md:h-auto">
+            <div class="flex flex-col justify-between text-left md:max-w-md">
+                <div class="font-primary-thin text-4xl">
                     <span class="font-primary-bold">Eating veggie,</span> <br />
                     the easy way.
                 </div>
-                <p class="font-primary-regular">
-                    Sit odit nemo ipsum et quam non quaerat. Sunt similique ut dignissimos eligendi quia sed veritatis
-                    placeat. Et ut et et quia minima.
-                </p>
-                <a href="#finder" v-smooth-scroll id="action-button-desktop" class="font-primary-regular get-button">
+                <div class="font-primary-light text-lg mt-4">
+                    40% of gas emissions are due to the consume of meat around the world, would you be able to make a
+                    small change for a big difference?
+                </div>
+                <a href="#finder" v-smooth-scroll class="font-primary-regular get-button hidden md:flex">
                     Let's get some recipes
                 </a>
             </div>
-            <div class="hero-images">
-                <img src="@/assets/pasta.png" alt="Two dishes of pasta" />
-                <div class="smaller-images-container">
-                    <img src="@/assets/salad.png" class="smaller-images" alt="A salad" />
-                    <img src="@/assets/burger.png" class="smaller-images" alt="A burger" />
+            <div class="grid grid-cols-2 gap-2 items-center justify-center object-cover my-8">
+                <img src="@/assets/pasta.png" class="rounded-md shadow-sm" alt="Two dishes of pasta" />
+                <div class="grid grid-rows-2 gap-2 justify-between h-full">
+                    <img src="@/assets/salad.png" class="rounded-md shadow-sm" alt="A salad" />
+                    <img src="@/assets/burger.png" class="rounded-md shadow-sm" alt="A burger" />
                 </div>
             </div>
-            <a id="action-button" href="#finder" class="font-primary-regular get-button" v-smooth-scroll>
+            <a id="action-button" href="#finder" class="font-primary-regular get-button md:hidden" v-smooth-scroll>
                 Let's get some recipes
             </a>
         </div>
@@ -34,87 +34,3 @@ export default {
     setup() {},
 };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.hero-container {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-.text-hero {
-    display: flex;
-    flex-direction: column;
-    padding-right: 5rem;
-}
-.img-container {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
-}
-img {
-    border-radius: 0.25rem;
-    object-fit: cover;
-    height: 100%;
-}
-.title {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-    text-align: start;
-}
-.hero-images {
-    display: grid;
-    gap: 0.5rem;
-    width: 100%;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-@media (min-width: 768px) {
-    #action-button {
-        display: none;
-    }
-    #action-button-desktop {
-        display: flex;
-    }
-}
-@media (max-width: 768px) {
-    #action-button-desktop {
-        display: none;
-    }
-    .hero-container {
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-        height: fit-content;
-    }
-
-    .text-hero {
-        padding-right: 0rem;
-    }
-}
-.smaller-images-container {
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-rows: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-}
-.smaller-images {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-}
-
-#burger {
-    margin-top: 0.5rem;
-}
-#salad {
-    margin-bottom: 0.5rem;
-}
-</style>

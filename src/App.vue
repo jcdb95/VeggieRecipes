@@ -1,5 +1,5 @@
 <template>
-    <Hero msg="Welcome to Your Vue.js App" />
+    <Hero />
     <Finder />
     <recipes-list :class="{ 'not-showing': !list.length }" />
     <teleport to="#app">
@@ -27,14 +27,10 @@ export default {
     setup() {
         const store = useStore();
 
-        const setApiKey = () => {
-            store.commit('recipes/setApiKey');
-        };
         onMounted(() => {
             setTimeout(() => {
                 store.commit('recipes/showingModal', true);
-            }, 25000);
-            setApiKey();
+            }, 500);
             console.log(store.getters['recipes/showingModal']);
         });
         return {
@@ -48,6 +44,7 @@ export default {
 <style>
 body {
     margin: 0px;
+    background: #fffaf0 !important;
 }
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -55,9 +52,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    background: #fffaf0 !important;
     height: 100%;
     position: relative;
+    padding-left: 1.5rem /* 24px */;
+    padding-right: 1.5rem /* 24px */;
 }
 .not-showing {
     display: none !important;
@@ -92,7 +90,7 @@ input::placeholder {
     font-family: 'InterLight';
 }
 
-.page-container {
+/* .page-container {
     display: flex;
     height: fit-content;
     flex-direction: column;
@@ -106,7 +104,7 @@ input::placeholder {
 
 .container {
     width: 100%;
-}
+} */
 
 .title {
     font-size: 2.25rem;
