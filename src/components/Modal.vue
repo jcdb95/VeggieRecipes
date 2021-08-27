@@ -36,7 +36,7 @@
                     />
                 </div>
                 <div @click="subscribe" class="font-primary-regular subscribe-button">
-                    Subscribe to our newsletter
+                    Leave us your email
                 </div>
             </div>
             <div class="flex flex-col my-auto" v-else>

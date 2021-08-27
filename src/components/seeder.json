@@ -1,0 +1,1769 @@
+{
+  "results": [
+    {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "veryHealthy": true,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 24,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 1,
+      "spoonacularScore": 92.0,
+      "healthScore": 100.0,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 348.74,
+      "id": 640338,
+      "title": "Cracked Wheat Salad with Dates & Tahini Yogurt",
+      "readyInMinutes": 45,
+      "servings": 2,
+      "sourceUrl": "http://www.foodista.com/recipe/6PVSJLCP/cracked-wheat-salad-with-dates-tahini-yogrt",
+      "image": "https://spoonacular.com/recipeImages/640338-312x231.jpg",
+      "imageType": "jpg",
+      "summary": "Cracked Wheat Salad with Dates & Tahini Yogurt might be just the main course you are searching for. One serving contains <b>900 calories</b>, <b>33g of protein</b>, and <b>48g of fat</b>. For <b>$3.45 per serving</b>, this recipe <b>covers 44%</b> of your daily requirements of vitamins and minerals. If you have ground cumin, lemon, dates, and a few other ingredients on hand, you can make it. To use up the ground cumin you could follow this main course with the <a href=\"https://spoonacular.com/recipes/moroccan-chocolate-mousse-752536\">Moroccan Chocolate Mousse</a> as a dessert. From preparation to the plate, this recipe takes around <b>45 minutes</b>. Not a lot of people made this recipe, and 1 would say it hit the spot. All things considered, we decided this recipe <b>deserves a spoonacular score of 93%</b>. This score is awesome. Try <a href=\"https://spoonacular.com/recipes/sea-scallops-with-cracked-wheat-salad-roasted-red-pepper-tahini-vinaigrette-and-grilled-lemons-346792\">Sea Scallops with Cracked Wheat Salad, Roasted Red Pepper Tahini Vinaigrette and Grilled Lemons</a>, <a href=\"https://spoonacular.com/recipes/lamb-beet-and-cracked-wheat-meatballs-with-cucumber-yogurt-sauce-91819\">Lamb, Beet, and Cracked Wheat Meatballs with Cucumber Yogurt Sauce</a>, and <a href=\"https://spoonacular.com/recipes/mediterranean-cracked-wheat-salad-103311\">Mediterranean Cracked Wheat Salad</a> for similar recipes.",
+      "cuisines": [],
+      "dishTypes": [
+        "salad"
+      ],
+      "diets": [
+        "lacto ovo vegetarian"
+      ],
+      "occasions": [],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "For Tahini Yogurt: dry roast ground cumin and coriander in a pan for a few minutes until they start getting fragrant. In a mixing bowl, add yogurt and tahini and mix well. Now add cumin, coriander, juice and zest of 1 lemon, olive oil, and salt to taste and mix well to form a thick paste-like mixture. Set aside.For Assembling the Salad: In a big salad bowl mix everything and season with little salt (just be careful as the yogurt topping also has salt in it).",
+              "ingredients": [
+                {
+                  "id": 9150,
+                  "name": "lemon",
+                  "localizedName": "lemon",
+                  "image": "lemon.png"
+                },
+                {
+                  "id": 1012014,
+                  "name": "ground cumin",
+                  "localizedName": "ground cumin",
+                  "image": "ground-cumin.jpg"
+                },
+                {
+                  "id": 1012013,
+                  "name": "coriander",
+                  "localizedName": "coriander",
+                  "image": "ground-coriander.jpg"
+                },
+                {
+                  "id": 4053,
+                  "name": "olive oil",
+                  "localizedName": "olive oil",
+                  "image": "olive-oil.jpg"
+                },
+                {
+                  "id": 12698,
+                  "name": "tahini",
+                  "localizedName": "tahini",
+                  "image": "tahini-paste.png"
+                },
+                {
+                  "id": 1116,
+                  "name": "yogurt",
+                  "localizedName": "yogurt",
+                  "image": "plain-yogurt.jpg"
+                },
+                {
+                  "id": 1002014,
+                  "name": "cumin",
+                  "localizedName": "cumin",
+                  "image": "ground-cumin.jpg"
+                },
+                {
+                  "id": 2047,
+                  "name": "salt",
+                  "localizedName": "salt",
+                  "image": "salt.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 405907,
+                  "name": "mixing bowl",
+                  "localizedName": "mixing bowl",
+                  "image": "mixing-bowl.jpg"
+                },
+                {
+                  "id": 404645,
+                  "name": "frying pan",
+                  "localizedName": "frying pan",
+                  "image": "pan.png"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "step": "Serve in individual salad bowls,  putting a dollop of the tahini yogurt and sprinkling some toasted sesame seeds. Tastes best at room temperature.",
+              "ingredients": [
+                {
+                  "id": 12023,
+                  "name": "sesame seeds",
+                  "localizedName": "sesame seeds",
+                  "image": "sesame-seeds.png"
+                },
+                {
+                  "id": 12698,
+                  "name": "tahini",
+                  "localizedName": "tahini",
+                  "image": "tahini-paste.png"
+                },
+                {
+                  "id": 1116,
+                  "name": "yogurt",
+                  "localizedName": "yogurt",
+                  "image": "plain-yogurt.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "spoonacularSourceUrl": "https://spoonacular.com/cracked-wheat-salad-with-dates-tahini-yogurt-640338"
+    },
+    {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "veryHealthy": true,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 3,
+      "gaps": "no",
+      "lowFodmap": true,
+      "aggregateLikes": 4,
+      "spoonacularScore": 95.0,
+      "healthScore": 100.0,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 139.83,
+      "id": 637162,
+      "title": "Carrot and Cabbage Salad With Coriander+cumin Dry Rub",
+      "readyInMinutes": 25,
+      "servings": 1,
+      "sourceUrl": "http://www.foodista.com/recipe/MB7NYM87/carrot-and-cabbage-salad-with-coriandercumin-dry-rub",
+      "image": "https://spoonacular.com/recipeImages/637162-312x231.jpg",
+      "imageType": "jpg",
+      "summary": "Carrot and Cabbage Salad With Coriander+cumin Dry Rub is a <b>caveman, gluten free, primal, and fodmap friendly</b> side dish. For <b>$1.35 per serving</b>, this recipe <b>covers 27%</b> of your daily requirements of vitamins and minerals. This recipe makes 1 servings with <b>220 calories</b>, <b>6g of protein</b>, and <b>10g of fat</b> each. 3 people have made this recipe and would make it again. Head to the store and pick up ground coriander, juice of lime, cabbage, and a few other things to make it today. From preparation to the plate, this recipe takes approximately <b>25 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 95%</b>. This score is amazing. Try <a href=\"https://spoonacular.com/recipes/citrusy-cabbage-salad-with-cumin-and-coriander-626357\">Citrusy Cabbage Salad with Cumin and Coriander</a>, <a href=\"https://spoonacular.com/recipes/best-dry-spice-rub-for-chicken-beef-and-pork-918487\">Best Dry Spice Rub for Chicken, Beef and Pork</a>, and <a href=\"https://spoonacular.com/recipes/carrot-and-apple-soup-with-cumin-and-coriander-41309\">Carrot And Apple Soup With Cumin And Coriander</a> for similar recipes.",
+      "cuisines": [],
+      "dishTypes": [
+        "side dish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "fodmap friendly",
+        "vegan"
+      ],
+      "occasions": [],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Chop up the carrots and the cabbage into slivers of roughly the same size.",
+              "ingredients": [
+                {
+                  "id": 11109,
+                  "name": "cabbage",
+                  "localizedName": "cabbage",
+                  "image": "cabbage.jpg"
+                },
+                {
+                  "id": 11124,
+                  "name": "carrot",
+                  "localizedName": "carrot",
+                  "image": "sliced-carrot.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 2,
+              "step": "Add the ground coriander, cumin seed, lime juice, and olive oil and massage it into the veggies.",
+              "ingredients": [
+                {
+                  "id": 1002013,
+                  "name": "ground coriander",
+                  "localizedName": "ground coriander",
+                  "image": "ground-coriander.jpg"
+                },
+                {
+                  "id": 2014,
+                  "name": "cumin seeds",
+                  "localizedName": "cumin seeds",
+                  "image": "ground-cumin.jpg"
+                },
+                {
+                  "id": 9160,
+                  "name": "lime juice",
+                  "localizedName": "lime juice",
+                  "image": "lime-juice.png"
+                },
+                {
+                  "id": 4053,
+                  "name": "olive oil",
+                  "localizedName": "olive oil",
+                  "image": "olive-oil.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 3,
+              "step": "Add the fresh coriander and sunflower seeds on top.Leave aside for a couple of hours for the spices to seep into the veggies for added flavor.",
+              "ingredients": [
+                {
+                  "id": 11165,
+                  "name": "fresh cilantro",
+                  "localizedName": "fresh cilantro",
+                  "image": "cilantro.png"
+                },
+                {
+                  "id": 12036,
+                  "name": "sunflower seeds",
+                  "localizedName": "sunflower seeds",
+                  "image": "sunflower-seeds.jpg"
+                },
+                {
+                  "id": 2035,
+                  "name": "spices",
+                  "localizedName": "spices",
+                  "image": "spices.png"
+                }
+              ],
+              "equipment": []
+            }
+          ]
+        }
+      ],
+      "spoonacularSourceUrl": "https://spoonacular.com/carrot-and-cabbage-salad-with-coriander+cumin-dry-rub-637162"
+    },
+    {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "veryHealthy": true,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 12,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 3,
+      "spoonacularScore": 94.0,
+      "healthScore": 100.0,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 252.69,
+      "id": 646043,
+      "title": "Gujarati Dry Mung Bean Curry",
+      "readyInMinutes": 45,
+      "servings": 4,
+      "sourceUrl": "http://www.foodista.com/recipe/G6ZJW56S/gujarati-dry-mung-bean-curry",
+      "image": "https://spoonacular.com/recipeImages/646043-312x231.jpg",
+      "imageType": "jpg",
+      "summary": "The recipe Gujarati Dry Mung Bean Curry is ready <b>in around 45 minutes</b> and is definitely an excellent <b>gluten free and vegan</b> option for lovers of Indian food. For <b>$2.53 per serving</b>, this recipe <b>covers 45%</b> of your daily requirements of vitamins and minerals. This recipe makes 4 servings with <b>417 calories</b>, <b>23g of protein</b>, and <b>6g of fat</b> each. This recipe from Foodista has 2 fans. It works well as an affordable main course. A mixture of salt, sugar, cinnamon powder, and a handful of other ingredients are all it takes to make this recipe so flavorful. To use up the cumin seeds you could follow this main course with the <a href=\"https://spoonacular.com/recipes/indian-fried-banana-cakes-mangalore-buns-899949\">Indian Fried Banana Cakes (Mangalore Buns)</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 94%</b>. This score is amazing. Try <a href=\"https://spoonacular.com/recipes/uncle-bills-mung-bean-curry-113139\">Uncle Bill's Mung Bean Curry</a>, <a href=\"https://spoonacular.com/recipes/mung-bean-crepes-34435\">Mung Bean Crepes</a>, and <a href=\"https://spoonacular.com/recipes/korean-mung-with-bean-34423\">Korean Mung With Bean</a> for similar recipes.",
+      "cuisines": [
+        "Indian",
+        "Asian"
+      ],
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "occasions": [],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Wash the mung beans and boil them in plenty of hot water with a pinch of baking powder until al-dente. If you have a pressure cooker thats about 6-7 whistles.",
+              "ingredients": [
+                {
+                  "id": 18369,
+                  "name": "baking powder",
+                  "localizedName": "baking powder",
+                  "image": "white-powder.jpg"
+                },
+                {
+                  "id": 16080,
+                  "name": "mung beans",
+                  "localizedName": "mung beans",
+                  "image": "mung-beans.png"
+                },
+                {
+                  "id": 14412,
+                  "name": "water",
+                  "localizedName": "water",
+                  "image": "water.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404658,
+                  "name": "pressure cooker",
+                  "localizedName": "pressure cooker",
+                  "image": "pressure-cooker.jpg"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "step": "Drain and set aside.In a large pan heat the oil and add the mustard seeds (wait for them to pop) then add the cumin seeds, asafoetida, curry leaves, garlic and chillies. Saut until aromatic. Obviously dont let it burn.",
+              "ingredients": [
+                {
+                  "id": 2024,
+                  "name": "mustard seeds",
+                  "localizedName": "mustard seeds",
+                  "image": "mustard-seeds.png"
+                },
+                {
+                  "id": 93604,
+                  "name": "curry leaves",
+                  "localizedName": "curry leaves",
+                  "image": "curry-leaves.jpg"
+                },
+                {
+                  "id": 2014,
+                  "name": "cumin seeds",
+                  "localizedName": "cumin seeds",
+                  "image": "ground-cumin.jpg"
+                },
+                {
+                  "id": 1032035,
+                  "name": "asafoetida",
+                  "localizedName": "asafoetida",
+                  "image": "curry-powder.jpg"
+                },
+                {
+                  "id": 11819,
+                  "name": "chili pepper",
+                  "localizedName": "chili pepper",
+                  "image": "red-chili.jpg"
+                },
+                {
+                  "id": 11215,
+                  "name": "garlic",
+                  "localizedName": "garlic",
+                  "image": "garlic.png"
+                },
+                {
+                  "id": 4582,
+                  "name": "cooking oil",
+                  "localizedName": "cooking oil",
+                  "image": "vegetable-oil.jpg"
+                },
+                {
+                  "id": 0,
+                  "name": "pop",
+                  "localizedName": "soft drink",
+                  "image": ""
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404645,
+                  "name": "frying pan",
+                  "localizedName": "frying pan",
+                  "image": "pan.png"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "step": "Add the tomatoes, turmeric and mung beans and cook for two minutes. Be careful not to mash it up as you stir.",
+              "ingredients": [
+                {
+                  "id": 16080,
+                  "name": "mung beans",
+                  "localizedName": "mung beans",
+                  "image": "mung-beans.png"
+                },
+                {
+                  "id": 11529,
+                  "name": "tomato",
+                  "localizedName": "tomato",
+                  "image": "tomato.png"
+                },
+                {
+                  "id": 2043,
+                  "name": "turmeric",
+                  "localizedName": "turmeric",
+                  "image": "turmeric.jpg"
+                }
+              ],
+              "equipment": [],
+              "length": {
+                "number": 2,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 4,
+              "step": "Add the salt, sugar, lemon juice and cinnamon powder and cook for a further two minutes.Throw in the chopped coriander, combine and serve.",
+              "ingredients": [
+                {
+                  "id": 1012010,
+                  "name": "ground cinnamon",
+                  "localizedName": "ground cinnamon",
+                  "image": "cinnamon.jpg"
+                },
+                {
+                  "id": 9152,
+                  "name": "lemon juice",
+                  "localizedName": "lemon juice",
+                  "image": "lemon-juice.jpg"
+                },
+                {
+                  "id": 1012013,
+                  "name": "coriander",
+                  "localizedName": "coriander",
+                  "image": "ground-coriander.jpg"
+                },
+                {
+                  "id": 19335,
+                  "name": "sugar",
+                  "localizedName": "sugar",
+                  "image": "sugar-in-bowl.png"
+                },
+                {
+                  "id": 2047,
+                  "name": "salt",
+                  "localizedName": "salt",
+                  "image": "salt.jpg"
+                }
+              ],
+              "equipment": [],
+              "length": {
+                "number": 2,
+                "unit": "minutes"
+              }
+            }
+          ]
+        }
+      ],
+      "spoonacularSourceUrl": "https://spoonacular.com/gujarati-dry-mung-bean-curry-646043"
+    },
+    {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "veryHealthy": true,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 3,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 1,
+      "spoonacularScore": 90.0,
+      "healthScore": 100.0,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 265.09,
+      "id": 665527,
+      "title": "Yellow Squash Noodles with Tomato Basil Sauce",
+      "readyInMinutes": 45,
+      "servings": 3,
+      "sourceUrl": "https://www.foodista.com/recipe/PTQSXRCL/yellow-squash-noodles-with-tomato-basil-sauce",
+      "image": "https://spoonacular.com/recipeImages/665527-312x231.jpg",
+      "imageType": "jpg",
+      "summary": "Yellow Squash Noodles with Tomato Basil Sauce could be just the <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> recipe you've been looking for. This recipe serves 3 and costs $2.65 per serving. One portion of this dish contains roughly <b>7g of protein</b>, <b>13g of fat</b>, and a total of <b>212 calories</b>. Not a lot of people really liked this side dish. Head to the store and pick up sea salt, olive oil, fennel bulb, and a few other things to make it today. It is brought to you by Foodista. 1 person found this recipe to be tasty and satisfying. From preparation to the plate, this recipe takes roughly <b>roughly 45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 90%</b>. This score is super. Similar recipes include <a href=\"https://spoonacular.com/recipes/lightened-up-alfredo-sauce-with-zucchini-yellow-squash-noodles-607548\">Lightened Up Alfredo Sauce with Zucchini & Yellow Squash Noodles</a>, <a href=\"https://spoonacular.com/recipes/lasagna-with-homemade-basil-noodles-and-sausage-tomato-sauce-26497\">Lasagna with Homemade Basil Noodles and Sausage-Tomato Sauce</a>, and <a href=\"https://spoonacular.com/recipes/zucchini-noodles-with-creamy-roasted-tomato-basil-sauce-609077\">Zucchini noodles with creamy roasted tomato basil sauce</a>.",
+      "cuisines": [],
+      "dishTypes": [
+        "side dish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "vegan"
+      ],
+      "occasions": [],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Heat 1 and 1/2 tablespoons of olive oil in a small saut pan over medium-high heat. When the pan is hot, add the garlic and tomatoes cut side down.",
+              "ingredients": [
+                {
+                  "id": 4053,
+                  "name": "olive oil",
+                  "localizedName": "olive oil",
+                  "image": "olive-oil.jpg"
+                },
+                {
+                  "id": 11529,
+                  "name": "tomato",
+                  "localizedName": "tomato",
+                  "image": "tomato.png"
+                },
+                {
+                  "id": 11215,
+                  "name": "garlic",
+                  "localizedName": "garlic",
+                  "image": "garlic.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404645,
+                  "name": "frying pan",
+                  "localizedName": "frying pan",
+                  "image": "pan.png"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "step": "Let the tomatoes cook for 3 minutes before turning them over. Cook for another 2-3 minutes and then turn off the heat.",
+              "ingredients": [
+                {
+                  "id": 11529,
+                  "name": "tomato",
+                  "localizedName": "tomato",
+                  "image": "tomato.png"
+                }
+              ],
+              "equipment": [],
+              "length": {
+                "number": 6,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 3,
+              "step": "In a food processor or blender, mix the sauted tomatoes, garlic, sun-dried tomatoes, basil, and salt until smooth.",
+              "ingredients": [
+                {
+                  "id": 11955,
+                  "name": "sun dried tomatoes",
+                  "localizedName": "sun dried tomatoes",
+                  "image": "sundried-tomatoes.jpg"
+                },
+                {
+                  "id": 11529,
+                  "name": "tomato",
+                  "localizedName": "tomato",
+                  "image": "tomato.png"
+                },
+                {
+                  "id": 11215,
+                  "name": "garlic",
+                  "localizedName": "garlic",
+                  "image": "garlic.png"
+                },
+                {
+                  "id": 2044,
+                  "name": "basil",
+                  "localizedName": "basil",
+                  "image": "basil.jpg"
+                },
+                {
+                  "id": 2047,
+                  "name": "salt",
+                  "localizedName": "salt",
+                  "image": "salt.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404771,
+                  "name": "food processor",
+                  "localizedName": "food processor",
+                  "image": "food-processor.png"
+                },
+                {
+                  "id": 404726,
+                  "name": "blender",
+                  "localizedName": "blender",
+                  "image": "blender.png"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "step": "Cut off both ends of each of the yellow squash. Spiralize the squash with Blade B, and chop the noodles several times so that they are easier to eat. Be sure to slice the part of the squash that is not spiralized and mix them with the noodles. NOTE: If you do not own a spiralizer, use a vegetable peeler to create yellow squash ribbons.",
+              "ingredients": [
+                {
+                  "id": 10211641,
+                  "name": "yellow squash",
+                  "localizedName": "yellow squash",
+                  "image": "yellow-squash.jpg"
+                },
+                {
+                  "id": 11583,
+                  "name": "vegetable",
+                  "localizedName": "vegetable",
+                  "image": "mixed-vegetables.png"
+                },
+                {
+                  "id": 20420,
+                  "name": "pasta",
+                  "localizedName": "pasta",
+                  "image": "fusilli.jpg"
+                },
+                {
+                  "id": 10011485,
+                  "name": "squash",
+                  "localizedName": "squash",
+                  "image": "butternut-squash.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404693,
+                  "name": "peeler",
+                  "localizedName": "peeler",
+                  "image": "peeler.png"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "step": "If you are adding fennel to this dish, heat a tablespoon of oil in a small saut pan over medium-high heat. When the pan is hot, add the fennel and saut them for about 4-5 minutes or until they turn translucent. Season with some fresh dill and salt.",
+              "ingredients": [
+                {
+                  "id": 2045,
+                  "name": "fresh dill",
+                  "localizedName": "fresh dill",
+                  "image": "dill.jpg"
+                },
+                {
+                  "id": 11957,
+                  "name": "fennel",
+                  "localizedName": "fennel",
+                  "image": "fennel.png"
+                },
+                {
+                  "id": 2047,
+                  "name": "salt",
+                  "localizedName": "salt",
+                  "image": "salt.jpg"
+                },
+                {
+                  "id": 4582,
+                  "name": "cooking oil",
+                  "localizedName": "cooking oil",
+                  "image": "vegetable-oil.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404645,
+                  "name": "frying pan",
+                  "localizedName": "frying pan",
+                  "image": "pan.png"
+                }
+              ],
+              "length": {
+                "number": 5,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 6,
+              "step": "In a large bowl, mix the noodles and sauce together.",
+              "ingredients": [
+                {
+                  "id": 20420,
+                  "name": "pasta",
+                  "localizedName": "pasta",
+                  "image": "fusilli.jpg"
+                },
+                {
+                  "id": 0,
+                  "name": "sauce",
+                  "localizedName": "sauce",
+                  "image": ""
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                }
+              ]
+            },
+            {
+              "number": 7,
+              "step": "Serve with the fennel and plum tomatoes.",
+              "ingredients": [
+                {
+                  "id": 10411529,
+                  "name": "plum tomato",
+                  "localizedName": "plum tomato",
+                  "image": "plum-tomatoes.png"
+                },
+                {
+                  "id": 11957,
+                  "name": "fennel",
+                  "localizedName": "fennel",
+                  "image": "fennel.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 8,
+              "step": "Refrigerate any leftovers in an airtight container.",
+              "ingredients": [],
+              "equipment": []
+            }
+          ]
+        }
+      ],
+      "spoonacularSourceUrl": "https://spoonacular.com/yellow-squash-noodles-with-tomato-basil-sauce-665527"
+    },
+    {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "veryHealthy": true,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 20,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 2,
+      "spoonacularScore": 93.0,
+      "healthScore": 100.0,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 463.72,
+      "id": 642121,
+      "title": "Easy Tabouleh",
+      "readyInMinutes": 45,
+      "servings": 1,
+      "sourceUrl": "http://www.foodista.com/recipe/HC6SVFST/easy-tabouleh",
+      "image": "https://spoonacular.com/recipeImages/642121-312x231.jpg",
+      "imageType": "jpg",
+      "summary": "Easy Tabouleh might be just the main course you are searching for. For <b>$3.22 per serving</b>, this recipe <b>covers 36%</b> of your daily requirements of vitamins and minerals. This recipe makes 1 servings with <b>732 calories</b>, <b>14g of protein</b>, and <b>44g of fat</b> each. It is a good option if you're following a <b>vegan</b> diet. This recipe is liked by 2 foodies and cooks. A mixture of salt, smalls cucumbers, flat leaf parsley, and a handful of other ingredients are all it takes to make this recipe so yummy. To use up the bulgur you could follow this main course with the <a href=\"https://spoonacular.com/recipes/bulgur-pudding-with-candied-ginger-and-figs-759940\">Bulgur Pudding with Candied Ginger and Figs</a> as a dessert. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. This recipe is typical of middl eastern cuisine. All things considered, we decided this recipe <b>deserves a spoonacular score of 94%</b>. This score is excellent. Try <a href=\"https://spoonacular.com/recipes/tabouleh-raw-102810\">Tabouleh (Raw)</a>, <a href=\"https://spoonacular.com/recipes/tabouleh-22863\">Tabouleh</a>, and <a href=\"https://spoonacular.com/recipes/quinoa-tabouleh-385166\">Quinoa Tabouleh</a> for similar recipes.",
+      "cuisines": [
+        "Middle Eastern"
+      ],
+      "dishTypes": [
+        "side dish"
+      ],
+      "diets": [
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "occasions": [],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Chop the vegetables and parsley finely. The restaurant version has the veggies diced fairly small and I wanted to stay true to that.Rinse the cracked wheat in a fine mesh sieve and let drain.",
+              "ingredients": [
+                {
+                  "id": 93684,
+                  "name": "cracked wheat",
+                  "localizedName": "cracked wheat",
+                  "image": "bulgur-wheat.jpg"
+                },
+                {
+                  "id": 11583,
+                  "name": "vegetable",
+                  "localizedName": "vegetable",
+                  "image": "mixed-vegetables.png"
+                },
+                {
+                  "id": 11297,
+                  "name": "parsley",
+                  "localizedName": "parsley",
+                  "image": "parsley.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 405600,
+                  "name": "sieve",
+                  "localizedName": "sieve",
+                  "image": "strainer.png"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "step": "Combine all ingredients in a large bowl.",
+              "ingredients": [],
+              "equipment": [
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "spoonacularSourceUrl": "https://spoonacular.com/easy-tabouleh-642121"
+    },
+    {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "veryHealthy": true,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 10,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 1,
+      "spoonacularScore": 93.0,
+      "healthScore": 100.0,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 156.52,
+      "id": 646051,
+      "title": "Gulasch",
+      "readyInMinutes": 45,
+      "servings": 3,
+      "sourceUrl": "http://www.foodista.com/recipe/YGWX47HZ/gulasch-for-mucka",
+      "image": "https://spoonacular.com/recipeImages/646051-312x231.jpg",
+      "imageType": "jpg",
+      "summary": "You can never have too many main course recipes, so give Gulasch a try. One serving contains <b>380 calories</b>, <b>16g of protein</b>, and <b>1g of fat</b>. For <b>$1.39 per serving</b>, this recipe <b>covers 39%</b> of your daily requirements of vitamins and minerals. If you have bunch of parsley, caraway seeds, cucumber, and a few other ingredients on hand, you can make it. To use up the corn flour you could follow this main course with the <a href=\"https://spoonacular.com/recipes/corn-cookies-552651\">Corn Cookies</a> as a dessert. 1 person has made this recipe and would make it again. It is a good option if you're following a <b>gluten free and vegan</b> diet. From preparation to the plate, this recipe takes around <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 93%</b>. This score is tremendous. Try <a href=\"https://spoonacular.com/recipes/beef-gulasch-151110\">Beef Gulasch</a>, and <a href=\"https://spoonacular.com/recipes/szegediner-gulasch-german-sauerkraut-beef-goulash-for-sundaysupper-682816\">Szegediner Gulasch (German Sauerkraut Beef Goulash) for #SundaySupper</a> for similar recipes.",
+      "cuisines": [],
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "occasions": [],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Fry the onions in some olive oil until they are all glassy and soft, then add the paprika and the peppers, and keep it on the heat a little while longer (~5min.) Then add the cucumber, again keep it on the heat another couple minutes.Now just toss in your potatoes, add some water until they are almost completely covered. Throw in the rest of the spices; caraway, bay leaf, tomato paste, parsley, chili flakes and salt. Taste, add a little more if you need to. You can go pretty heavy on the paprika, but should be careful with the caraway, it's pretty intense.At this point you just cover the whole thing, and let it simmer for a while, until the potatoes are through. Check on  the water situation every now and again, the potatoes should be almost completely covered at all times.When the potatoes are through you can start the thickening process. I just dissolved one teaspoon of flour in a little bit of water (you don't just want to throw it in the gulasch, since the flour could form into little chunks) So just pour in your mixture, slowly (not everything at once!), let it simmer and wait to see how much it thickens, and then if still to watery, add more.I also took out a couple of the potatoes, mashed them, and put them back (just another way to make the whole thing less watery)",
+              "ingredients": [
+                {
+                  "id": 1032009,
+                  "name": "red pepper flakes",
+                  "localizedName": "red pepper flakes",
+                  "image": "red-pepper-flakes.jpg"
+                },
+                {
+                  "id": 11887,
+                  "name": "tomato paste",
+                  "localizedName": "tomato paste",
+                  "image": "tomato-paste.jpg"
+                },
+                {
+                  "id": 4053,
+                  "name": "olive oil",
+                  "localizedName": "olive oil",
+                  "image": "olive-oil.jpg"
+                },
+                {
+                  "id": 2004,
+                  "name": "bay leaves",
+                  "localizedName": "bay leaves",
+                  "image": "bay-leaves.jpg"
+                },
+                {
+                  "id": 11206,
+                  "name": "cucumber",
+                  "localizedName": "cucumber",
+                  "image": "cucumber.jpg"
+                },
+                {
+                  "id": 11352,
+                  "name": "potato",
+                  "localizedName": "potato",
+                  "image": "potatoes-yukon-gold.png"
+                },
+                {
+                  "id": 2005,
+                  "name": "caraway seeds",
+                  "localizedName": "caraway seeds",
+                  "image": "caraway-seeds.jpg"
+                },
+                {
+                  "id": 2028,
+                  "name": "paprika",
+                  "localizedName": "paprika",
+                  "image": "paprika.jpg"
+                },
+                {
+                  "id": 11297,
+                  "name": "parsley",
+                  "localizedName": "parsley",
+                  "image": "parsley.jpg"
+                },
+                {
+                  "id": 10111333,
+                  "name": "peppers",
+                  "localizedName": "peppers",
+                  "image": "green-pepper.jpg"
+                },
+                {
+                  "id": 11282,
+                  "name": "onion",
+                  "localizedName": "onion",
+                  "image": "brown-onion.png"
+                },
+                {
+                  "id": 2035,
+                  "name": "spices",
+                  "localizedName": "spices",
+                  "image": "spices.png"
+                },
+                {
+                  "id": 20081,
+                  "name": "all purpose flour",
+                  "localizedName": "all purpose flour",
+                  "image": "flour.png"
+                },
+                {
+                  "id": 14412,
+                  "name": "water",
+                  "localizedName": "water",
+                  "image": "water.png"
+                },
+                {
+                  "id": 2047,
+                  "name": "salt",
+                  "localizedName": "salt",
+                  "image": "salt.jpg"
+                }
+              ],
+              "equipment": [],
+              "length": {
+                "number": 5,
+                "unit": "minutes"
+              }
+            }
+          ]
+        }
+      ],
+      "spoonacularSourceUrl": "https://spoonacular.com/gulasch-646051"
+    },
+    {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "veryHealthy": true,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 6,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 3,
+      "spoonacularScore": 94.0,
+      "healthScore": 100.0,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 127.66,
+      "id": 642085,
+      "title": "Easy Roasted Vegetables",
+      "readyInMinutes": 45,
+      "servings": 4,
+      "sourceUrl": "https://www.foodista.com/recipe/RFJQ5QGF/easy-roasted-vegetables",
+      "image": "https://spoonacular.com/recipeImages/642085-312x231.jpg",
+      "imageType": "jpg",
+      "summary": "Easy Roasted Vegetables is a <b>gluten free, dairy free, lacto ovo vegetarian, and whole 30</b> recipe with 4 servings. One serving contains <b>297 calories</b>, <b>11g of protein</b>, and <b>4g of fat</b>. For <b>$1.28 per serving</b>, this recipe <b>covers 33%</b> of your daily requirements of vitamins and minerals. This recipe is liked by 2 foodies and cooks. Not a lot of people really liked this side dish. If you have butternut squash, salt & pepper, paprika, and a few other ingredients on hand, you can make it. It is brought to you by Foodista. From preparation to the plate, this recipe takes about <b>about 45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 95%</b>. This score is spectacular. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/easy-roasted-vegetables-379674\">Easy Roasted Vegetables</a>, <a href=\"https://spoonacular.com/recipes/easy-roasted-summer-vegetables-590293\">Easy Roasted Summer Vegetables</a>, and <a href=\"https://spoonacular.com/recipes/easy-herb-roasted-chicken-vegetables-587141\">Easy Herb-Roasted Chicken & Vegetables</a>.",
+      "cuisines": [],
+      "dishTypes": [
+        "side dish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "occasions": [],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Preheat oven to 200 degrees Celsius (fan: 180 degrees Celsius)",
+              "ingredients": [],
+              "equipment": [
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg",
+                  "temperature": {
+                    "number": 200.0,
+                    "unit": "Celsius"
+                  }
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "step": "Peel and cut the vegetables into bite size pieces (the potatoes dont necessarily need to be peeled).",
+              "ingredients": [
+                {
+                  "id": 11583,
+                  "name": "vegetable",
+                  "localizedName": "vegetable",
+                  "image": "mixed-vegetables.png"
+                },
+                {
+                  "id": 11352,
+                  "name": "potato",
+                  "localizedName": "potato",
+                  "image": "potatoes-yukon-gold.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 3,
+              "step": "Mix the olive oil, paprika, dried basil, salt and pepper in a large bowl before adding the vegetables.",
+              "ingredients": [
+                {
+                  "id": 1102047,
+                  "name": "salt and pepper",
+                  "localizedName": "salt and pepper",
+                  "image": "salt-and-pepper.jpg"
+                },
+                {
+                  "id": 2003,
+                  "name": "dried basil",
+                  "localizedName": "dried basil",
+                  "image": "basil.jpg"
+                },
+                {
+                  "id": 11583,
+                  "name": "vegetable",
+                  "localizedName": "vegetable",
+                  "image": "mixed-vegetables.png"
+                },
+                {
+                  "id": 4053,
+                  "name": "olive oil",
+                  "localizedName": "olive oil",
+                  "image": "olive-oil.jpg"
+                },
+                {
+                  "id": 2028,
+                  "name": "paprika",
+                  "localizedName": "paprika",
+                  "image": "paprika.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "step": "Mix everything together well.",
+              "ingredients": [],
+              "equipment": []
+            },
+            {
+              "number": 5,
+              "step": "Place the vegetables on a large baking tray/baking dish. Make sure they are spread out evenly. Aim for single layer.",
+              "ingredients": [
+                {
+                  "id": 11583,
+                  "name": "vegetable",
+                  "localizedName": "vegetable",
+                  "image": "mixed-vegetables.png"
+                },
+                {
+                  "id": 0,
+                  "name": "spread",
+                  "localizedName": "spread",
+                  "image": ""
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404646,
+                  "name": "baking pan",
+                  "localizedName": "baking pan",
+                  "image": "roasting-pan.jpg"
+                }
+              ]
+            },
+            {
+              "number": 6,
+              "step": "Cook the vegetables in the oven for about 30 minutes. They should be tender but still have a slight bite to them.",
+              "ingredients": [
+                {
+                  "id": 11583,
+                  "name": "vegetable",
+                  "localizedName": "vegetable",
+                  "image": "mixed-vegetables.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                }
+              ],
+              "length": {
+                "number": 30,
+                "unit": "minutes"
+              }
+            }
+          ]
+        }
+      ],
+      "spoonacularSourceUrl": "https://spoonacular.com/easy-roasted-vegetables-642085"
+    },
+    {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "veryHealthy": true,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 4,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 1,
+      "spoonacularScore": 96.0,
+      "healthScore": 100.0,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 148.24,
+      "id": 664547,
+      "title": "Vegetable Dip",
+      "readyInMinutes": 45,
+      "servings": 3,
+      "sourceUrl": "http://www.foodista.com/recipe/WMHFXKKF/vegetable-dip",
+      "image": "https://spoonacular.com/recipeImages/664547-312x231.jpg",
+      "imageType": "jpg",
+      "summary": "You can never have too many hor d'oeuvre recipes, so give Vegetable Dip a try. One serving contains <b>210 calories</b>, <b>16g of protein</b>, and <b>4g of fat</b>. This gluten free, primal, and vegetarian recipe serves 3 and costs <b>$1.84 per serving</b>. It can be enjoyed any time, but it is especially good for <b>The Super Bowl</b>. Not a lot of people made this recipe, and 1 would say it hit the spot. If you have spinach, vegetables, cup onion, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 96%</b>. This score is outstanding. Try <a href=\"https://spoonacular.com/recipes/pizza-dip-923592\">Pizza Dip</a>, <a href=\"https://spoonacular.com/recipes/smoky-eggplant-dip-908410\">Smoky Eggplant Dip</a>, and <a href=\"https://spoonacular.com/recipes/buffalo-chicken-dip-923959\">Buffalo Chicken Dip</a> for similar recipes.",
+      "cuisines": [],
+      "dishTypes": [
+        "condiment",
+        "dip",
+        "spread"
+      ],
+      "diets": [
+        "gluten free",
+        "lacto ovo vegetarian",
+        "primal"
+      ],
+      "occasions": [
+        "super bowl"
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "In a medium bowl combine all ingredients (except raw vegetables for dipping). Cover and refrigerate until ready to serve.",
+              "ingredients": [
+                {
+                  "id": 11583,
+                  "name": "vegetable",
+                  "localizedName": "vegetable",
+                  "image": "mixed-vegetables.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "step": "Serve as a dip for raw vegetables. Makes approximately 3 cups.",
+              "ingredients": [
+                {
+                  "id": 11583,
+                  "name": "vegetable",
+                  "localizedName": "vegetable",
+                  "image": "mixed-vegetables.png"
+                },
+                {
+                  "id": 0,
+                  "name": "dip",
+                  "localizedName": "dip",
+                  "image": ""
+                }
+              ],
+              "equipment": []
+            }
+          ]
+        }
+      ],
+      "spoonacularSourceUrl": "https://spoonacular.com/vegetable-dip-664547"
+    },
+    {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "veryHealthy": true,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 5,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 1,
+      "spoonacularScore": 93.0,
+      "healthScore": 100.0,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 198.52,
+      "id": 665138,
+      "title": "White Bean & Squash Dip",
+      "readyInMinutes": 45,
+      "servings": 3,
+      "sourceUrl": "https://www.foodista.com/recipe/PFGLCQG6/white-bean-squash-dip",
+      "image": "https://spoonacular.com/recipeImages/665138-312x231.jpg",
+      "imageType": "jpg",
+      "summary": "White Bean & Squash Dip requires roughly <b>roughly 45 minutes</b> from start to finish. For <b>$1.99 per serving</b>, this recipe <b>covers 48%</b> of your daily requirements of vitamins and minerals. One serving contains <b>542 calories</b>, <b>18g of protein</b>, and <b>6g of fat</b>. This recipe serves 3. 1 person has made this recipe and would make it again. It is a good option if you're following a <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> diet. It is brought to you by Foodista. It is perfect for <b>The Super Bowl</b>. A mixture of cannellini beans, bulb of garlic, tsp olive oil, and a handful of other ingredients are all it takes to make this recipe so tasty. It works well as a hor d'oeuvre. With a spoonacular <b>score of 93%</b>, this dish is super. Similar recipes are <a href=\"https://spoonacular.com/recipes/white-bean-and-roasted-delicata-squash-dip-573379\">White Bean and Roasted Delicata Squash Dip</a>, <a href=\"https://spoonacular.com/recipes/white-bean-dip-366280\">White Bean Dip</a>, and <a href=\"https://spoonacular.com/recipes/white-bean-dip-594935\">White Bean Dip</a>.",
+      "cuisines": [],
+      "dishTypes": [
+        "antipasti",
+        "condiment",
+        "starter",
+        "snack",
+        "appetizer",
+        "dip",
+        "antipasto",
+        "hor d'oeuvre",
+        "spread"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "occasions": [
+        "super bowl"
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Preheat oven to 400F (~205C). Line a baking sheet with parchment paper.",
+              "ingredients": [],
+              "equipment": [
+                {
+                  "id": 404770,
+                  "name": "baking paper",
+                  "localizedName": "baking paper",
+                  "image": "baking-paper.jpg"
+                },
+                {
+                  "id": 404727,
+                  "name": "baking sheet",
+                  "localizedName": "baking sheet",
+                  "image": "baking-sheet.jpg"
+                },
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg",
+                  "temperature": {
+                    "number": 400.0,
+                    "unit": "Fahrenheit"
+                  }
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "step": "Chop the top off the garlic bulb, exposing the cloves. Rip a sheet of aluminum foil, and place the garlic bulb on top.",
+              "ingredients": [
+                {
+                  "id": 1002011,
+                  "name": "clove",
+                  "localizedName": "clove",
+                  "image": "cloves.jpg"
+                },
+                {
+                  "id": 11215,
+                  "name": "garlic",
+                  "localizedName": "garlic",
+                  "image": "garlic.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404765,
+                  "name": "aluminum foil",
+                  "localizedName": "aluminum foil",
+                  "image": "aluminum-foil.png"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "step": "Drizzle a teaspoon of olive oil over the garlic, making sure to cover all exposed cloves. Wrap the garlic loosely with foil, but make sure that it is properly sealed. You want to trap heat inside the foil pouch.",
+              "ingredients": [
+                {
+                  "id": 4053,
+                  "name": "olive oil",
+                  "localizedName": "olive oil",
+                  "image": "olive-oil.jpg"
+                },
+                {
+                  "id": 1002011,
+                  "name": "clove",
+                  "localizedName": "clove",
+                  "image": "cloves.jpg"
+                },
+                {
+                  "id": 11215,
+                  "name": "garlic",
+                  "localizedName": "garlic",
+                  "image": "garlic.png"
+                },
+                {
+                  "id": 10018364,
+                  "name": "wrap",
+                  "localizedName": "wrap",
+                  "image": "flour-tortilla.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404765,
+                  "name": "aluminum foil",
+                  "localizedName": "aluminum foil",
+                  "image": "aluminum-foil.png"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "step": "Bake the garlic for about 35-45 minutes, or until the cloves are browned. Mine took about 45 minutes.",
+              "ingredients": [
+                {
+                  "id": 1002011,
+                  "name": "clove",
+                  "localizedName": "clove",
+                  "image": "cloves.jpg"
+                },
+                {
+                  "id": 11215,
+                  "name": "garlic",
+                  "localizedName": "garlic",
+                  "image": "garlic.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                }
+              ],
+              "length": {
+                "number": 90,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 5,
+              "step": "Chop off the tops and bottoms of each globe squash, and then chop them into small cubes. If you want to create a squash bowl like I did in the photo, save one globe squash for the bowl. Just chop off the top and, using a spoon, dig out all the flesh. Toss the squash with a tablespoon of oil and a small pinch of salt, and bake on the baking sheet for about 20 minutes.",
+              "ingredients": [
+                {
+                  "id": 10011485,
+                  "name": "squash",
+                  "localizedName": "squash",
+                  "image": "butternut-squash.jpg"
+                },
+                {
+                  "id": 2047,
+                  "name": "salt",
+                  "localizedName": "salt",
+                  "image": "salt.jpg"
+                },
+                {
+                  "id": 4582,
+                  "name": "cooking oil",
+                  "localizedName": "cooking oil",
+                  "image": "vegetable-oil.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404727,
+                  "name": "baking sheet",
+                  "localizedName": "baking sheet",
+                  "image": "baking-sheet.jpg"
+                },
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                },
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                }
+              ],
+              "length": {
+                "number": 20,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 6,
+              "step": "When the garlic is done, open up the foil wrap and let it cool for 10-15 minutes. When the garlic is cool enough to handle, squeeze out the cloves into a food processor.",
+              "ingredients": [
+                {
+                  "id": 1002011,
+                  "name": "clove",
+                  "localizedName": "clove",
+                  "image": "cloves.jpg"
+                },
+                {
+                  "id": 11215,
+                  "name": "garlic",
+                  "localizedName": "garlic",
+                  "image": "garlic.png"
+                },
+                {
+                  "id": 10018364,
+                  "name": "wrap",
+                  "localizedName": "wrap",
+                  "image": "flour-tortilla.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404771,
+                  "name": "food processor",
+                  "localizedName": "food processor",
+                  "image": "food-processor.png"
+                },
+                {
+                  "id": 404765,
+                  "name": "aluminum foil",
+                  "localizedName": "aluminum foil",
+                  "image": "aluminum-foil.png"
+                }
+              ],
+              "length": {
+                "number": 15,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 7,
+              "step": "Add the cannellini beans, roasted squash, and salt into the food processor and blend until smooth. Enjoy as a dip or add it to a pasta dish!",
+              "ingredients": [
+                {
+                  "id": 10716050,
+                  "name": "cannellini beans",
+                  "localizedName": "cannellini beans",
+                  "image": "cooked-cannellini-beans.png"
+                },
+                {
+                  "id": 10011485,
+                  "name": "squash",
+                  "localizedName": "squash",
+                  "image": "butternut-squash.jpg"
+                },
+                {
+                  "id": 20420,
+                  "name": "pasta",
+                  "localizedName": "pasta",
+                  "image": "fusilli.jpg"
+                },
+                {
+                  "id": 2047,
+                  "name": "salt",
+                  "localizedName": "salt",
+                  "image": "salt.jpg"
+                },
+                {
+                  "id": 0,
+                  "name": "dip",
+                  "localizedName": "dip",
+                  "image": ""
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404771,
+                  "name": "food processor",
+                  "localizedName": "food processor",
+                  "image": "food-processor.png"
+                }
+              ]
+            },
+            {
+              "number": 8,
+              "step": "Refrigerate leftovers in an airtight container.",
+              "ingredients": [],
+              "equipment": []
+            }
+          ]
+        }
+      ],
+      "spoonacularSourceUrl": "https://spoonacular.com/white-bean-squash-dip-665138"
+    },
+    {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "veryHealthy": true,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 8,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 11,
+      "spoonacularScore": 96.0,
+      "healthScore": 100.0,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 126.27,
+      "id": 663559,
+      "title": "Tomato and lentil soup",
+      "readyInMinutes": 45,
+      "servings": 4,
+      "sourceUrl": "https://www.foodista.com/recipe/5V4PTMT2/tomato-and-lentil-soup",
+      "image": "https://spoonacular.com/recipeImages/663559-312x231.jpg",
+      "imageType": "jpg",
+      "summary": "Tomato and lentil soup takes about <b>about 45 minutes</b> from beginning to end. Watching your figure? This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe has <b>358 calories</b>, <b>19g of protein</b>, and <b>8g of fat</b> per serving. This recipe serves 4 and costs $1.26 per serving. 11 person were impressed by this recipe. It works well as an affordable main course for <b>Autumn</b>. A mixture of carrots, bay leaf, parsley, and a handful of other ingredients are all it takes to make this recipe so yummy. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 97%</b>, which is super. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/lentil-tomato-soup-108370\">Lentil & Tomato Soup</a>, <a href=\"https://spoonacular.com/recipes/lentil-tomato-soup-398380\">Lentil-Tomato Soup</a>, and <a href=\"https://spoonacular.com/recipes/tomato-and-lentil-soup-482854\">Tomato and Lentil Soup</a>.",
+      "cuisines": [],
+      "dishTypes": [
+        "lunch",
+        "soup",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "occasions": [
+        "fall",
+        "winter"
+      ],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Saut onion and garlic in olive oil for 5 minutes.",
+              "ingredients": [
+                {
+                  "id": 4053,
+                  "name": "olive oil",
+                  "localizedName": "olive oil",
+                  "image": "olive-oil.jpg"
+                },
+                {
+                  "id": 11215,
+                  "name": "garlic",
+                  "localizedName": "garlic",
+                  "image": "garlic.png"
+                },
+                {
+                  "id": 11282,
+                  "name": "onion",
+                  "localizedName": "onion",
+                  "image": "brown-onion.png"
+                }
+              ],
+              "equipment": [],
+              "length": {
+                "number": 5,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 2,
+              "step": "Add the carrot, saut for another 2 minutes.",
+              "ingredients": [
+                {
+                  "id": 11124,
+                  "name": "carrot",
+                  "localizedName": "carrot",
+                  "image": "sliced-carrot.png"
+                }
+              ],
+              "equipment": [],
+              "length": {
+                "number": 2,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 3,
+              "step": "Add tomatoes, bay leaf and water, stir and bring to the boil.",
+              "ingredients": [
+                {
+                  "id": 2004,
+                  "name": "bay leaves",
+                  "localizedName": "bay leaves",
+                  "image": "bay-leaves.jpg"
+                },
+                {
+                  "id": 11529,
+                  "name": "tomato",
+                  "localizedName": "tomato",
+                  "image": "tomato.png"
+                },
+                {
+                  "id": 14412,
+                  "name": "water",
+                  "localizedName": "water",
+                  "image": "water.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 4,
+              "step": "Stir in lentils, season with salt and cook for 5 minutes.",
+              "ingredients": [
+                {
+                  "id": 10316069,
+                  "name": "lentils",
+                  "localizedName": "lentils",
+                  "image": "lentils-brown.jpg"
+                },
+                {
+                  "id": 2047,
+                  "name": "salt",
+                  "localizedName": "salt",
+                  "image": "salt.jpg"
+                }
+              ],
+              "equipment": [],
+              "length": {
+                "number": 5,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 5,
+              "step": "Before serving sprinkle with chopped parsley.",
+              "ingredients": [
+                {
+                  "id": 11297,
+                  "name": "parsley",
+                  "localizedName": "parsley",
+                  "image": "parsley.jpg"
+                }
+              ],
+              "equipment": []
+            }
+          ]
+        }
+      ],
+      "spoonacularSourceUrl": "https://spoonacular.com/tomato-and-lentil-soup-663559"
+    }
+  ],
+  "offset": 0,
+  "number": 10,
+  "totalResults": 2013
+}

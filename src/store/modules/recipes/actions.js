@@ -44,6 +44,7 @@ export function getRecipes(context) {
 }
 
 export function getRecipesPlanB(context) {
+    console.log('going with plan b')
     return new Promise((resolve, reject) => {
         const api = 'https://api.spoonacular.com/recipes/random';
         let params = {

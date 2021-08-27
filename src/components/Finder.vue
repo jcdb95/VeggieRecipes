@@ -31,6 +31,13 @@
             <div @click="getRecipes" class="font-primary-regular get-button">
                 Find recipes
             </div>
+
+            <div
+                @click="getRandomRecipes"
+                class="font-primary-regular flex flex-col items-center justify-center w-full h-12 text-white text-xl my-2 bg-blue-500 shadow-md cursor-pointer rounded-md"
+            >
+                Get me some random recipes
+            </div>
         </div>
     </div>
 </template>
@@ -63,9 +70,21 @@ export default {
             set: () => store.commit('recipes/setInAHurry', !store.getters['recipes/inAHurry']),
         });
 
-        const getRecipes = async () => {
+        const getRecipes = () => {
             store
                 .dispatch('recipes/getRecipes')
+                .then(() => {
+                    if (store.getters['recipes/recipes'].length)
+                        document.querySelector('#recipes-list').scrollIntoView({ behavior: 'smooth' });
+                })
+                .catch(err => {
+                    console.log(err);
+                });
+        };
+
+        const getRandomRecipes = () => {
+            store
+                .dispatch('recipes/getRecipesPlanB')
                 .then(() => {
                     if (store.getters['recipes/recipes'].length)
                         document.querySelector('#recipes-list').scrollIntoView({ behavior: 'smooth' });
@@ -80,6 +99,7 @@ export default {
             vegan,
             inAHurry,
             getRecipes,
+            getRandomRecipes,
         };
     },
 };

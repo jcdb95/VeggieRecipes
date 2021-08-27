@@ -13,7 +13,6 @@ import Hero from './components/Hero.vue';
 import RecipesList from './components/RecipesList.vue';
 import Modal from './components/Modal.vue';
 import { useStore } from 'vuex';
-import { onMounted } from 'vue';
 import { computed } from '@vue/reactivity';
 
 export default {
@@ -27,12 +26,6 @@ export default {
     setup() {
         const store = useStore();
 
-        onMounted(() => {
-            setTimeout(() => {
-                store.commit('recipes/showingModal', true);
-            }, 500);
-            console.log(store.getters['recipes/showingModal']);
-        });
         return {
             list: computed(() => store.getters['recipes/recipes']),
             isShow: computed(() => store.getters['recipes/showingModal']),

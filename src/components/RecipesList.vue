@@ -4,11 +4,11 @@
             Here are some recipes for you:
         </div>
         <div
-            class="grid grid-cols-1 md:grid-cols-3 md:gap-12 gap-6 my-10 md:items-center md:justify-center select-none"
+            class="grid grid-cols-2 md:grid-cols-3 md:gap-12 gap-4 my-10 md:items-center md:justify-center select-none"
         >
             <div v-for="(item, index) in list" :key="index">
                 <div
-                    class="flex flex-col items-center bg-white shadow-md rounded-lg md:transition-all md:duration-200 hover:shadow-xl"
+                    class="flex flex-col items-center bg-white shadow-md rounded-md md:rounded-lg md:transition-all md:duration-200 hover:shadow-xl"
                 >
                     <div class="h-32 w-full ">
                         <img
@@ -25,10 +25,10 @@
                         />
                     </div>
                     <div class="flex flex-col justify-around p-3 w-full">
-                        <div class="font-primary-bold text-xl text-left h-16">
+                        <div class="font-primary-bold text-base md:text-xl text-left h-16">
                             {{ smallTitle(item.title) }}
                         </div>
-                        <div class="font-primary-regular grid grid-rows-3 gap-4 my-4">
+                        <div class="font-primary-regular grid grid-rows-3 gap-2 md:gap-4 my-4">
                             <div class="text-left"><b>Time:</b> {{ item.readyInMinutes }}</div>
                             <div class="text-left"><b>Servings:</b> {{ item.servings }}</div>
                             <div class="text-left" v-if="item.dishTypes">
@@ -36,7 +36,10 @@
                                 <span class="capitalize">{{ item.dishTypes[0] || 'Just food' }}</span>
                             </div>
                         </div>
-                        <div @click="checkTheFullRecipe(item.sourceUrl)" class="font-primary-regular get-button">
+                        <div
+                            @click="checkTheFullRecipe(item.sourceUrl)"
+                            class="font-primary-regular flex flex-col items-center justify-center w-full h-12 text-white text-base md:text-xl my-2 bg-green-500 shadow-md cursor-pointer rounded-md"
+                        >
                             Check the full recipe
                         </div>
                     </div>
