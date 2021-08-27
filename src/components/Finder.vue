@@ -14,27 +14,33 @@
                     placeholder="Type in something like pasta"
                 />
             </div>
-            <div class="flex flex-col my-4 mx-1">
+            <div class="flex flex-col my-4 mx-1 ">
                 <div class="flex flex-row justify-between my-4 font-primary-light">
-                    <div>Does it has to be <span class="font-primary-bold underline">Gluten Free</span>?</div>
+                    <div class="text-base md:text-xl">
+                        Does it has to be <span class="font-primary-bold underline">Gluten Free</span>?
+                    </div>
                     <input type="checkbox" class="h-4 w-4 rounded " name="gluten_free" v-model="glutenFree" />
                 </div>
                 <div class="flex flex-row justify-between my-4 font-primary-light">
-                    <div>Should it be <span class="font-primary-bold underline">vegan</span> also?</div>
+                    <div class="text-base md:text-xl">
+                        Should it be <span class="font-primary-bold underline">vegan</span> also?
+                    </div>
                     <input type="checkbox" class="h-4 w-4 rounded " name="vegan" v-model="vegan" />
                 </div>
                 <div class="flex flex-row justify-between my-4 font-primary-light">
-                    <div>Are you in a <span class="font-primary-bold underline">rush</span>?</div>
+                    <div class="text-base md:text-xl">
+                        Are you in a <span class="font-primary-bold underline">rush</span>?
+                    </div>
                     <input type="checkbox" class="h-4 w-4 rounded " value="true" v-model="inAHurry" />
                 </div>
             </div>
-            <div @click="getRecipes" class="font-primary-regular get-button">
+            <div @click="getRecipes" class="font-primary-regular get-button text-base md:text-xl">
                 Find recipes
             </div>
 
             <div
                 @click="getRandomRecipes"
-                class="font-primary-regular flex flex-col items-center justify-center w-full h-12 text-white text-xl my-2 bg-blue-500 shadow-md cursor-pointer rounded-md"
+                class="font-primary-regular flex flex-col items-center justify-center w-full h-12 text-white text-base md:text-xl my-2 bg-blue-500 shadow-md cursor-pointer rounded-md"
             >
                 Get me some random recipes
             </div>
