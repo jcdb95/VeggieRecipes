@@ -8,7 +8,7 @@
                     <span class="font-primary-bold">Eating veggie,</span> <br />
                     the easy way.
                 </div>
-                <div class="font-primary-light text-lg my-2 text-hero">
+                <div class="font-primary-light text-base md:text-lg my-2 text-hero">
                     If 40% of gas emissions are due to the consumption of meat around the world, would you be able to
                     make a small change for a big difference?
                 </div>
