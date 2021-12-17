@@ -1,5 +1,5 @@
 <template>
-    <div id="recipes-list" class="container md:mx-auto md:max-w-5xl">
+    <div id="recipes-list" class="container md:mx-auto md:max-w-5xl my-12">
         <div class="font-primary-bold text-4xl">
             Here are some recipes for you:
         </div>

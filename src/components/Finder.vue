@@ -1,6 +1,6 @@
 <template>
     <div id="finder" class="container h-screen flex flex-col md:mx-auto md:items-center md:justify-center">
-        <div class="bg-white rounded-lg shadow-lg flex flex-col p-4  my-auto md:w-full md:max-w-xl">
+        <div class="bg-white rounded-lg shadow-lg flex flex-col p-8 my-auto md:w-full md:max-w-xl">
             <div class="font-primary-bold text-4xl text-left">
                 Let’s get <br class="md:hidden" />
                 some recipes
@@ -11,6 +11,7 @@
                     class="font-primary-light bg-transparent py-2 outline-none w-full"
                     v-model="query"
                     name="query"
+                    autofocus
                     placeholder="Type in something like pasta"
                 />
             </div>
@@ -34,15 +35,16 @@
                     <input type="checkbox" class="h-4 w-4 rounded " value="true" v-model="inAHurry" />
                 </div>
             </div>
-            <div @click="getRecipes" class="font-primary-regular get-button text-base md:text-xl">
-                Find recipes
-            </div>
-
-            <div
-                @click="getRandomRecipes"
-                class="font-primary-regular flex flex-col items-center justify-center w-full h-12 text-white text-base md:text-xl my-2 bg-blue-500 shadow-md cursor-pointer rounded-md"
-            >
-                Get me some random recipes
+            <div class="flex flex-col">
+                <div @click="getRecipes" class="font-primary-regular get-button text-base md:text-xl">
+                    Find recipes
+                </div>
+                <div
+                    @click="getRandomRecipes"
+                    class="font-primary-regular flex flex-col items-center justify-center w-full h-auto underline text-gray-400 text-base md:text-xl my-2 cursor-pointer"
+                >
+                    Just get me some random recipes
+                </div>
             </div>
         </div>
     </div>
