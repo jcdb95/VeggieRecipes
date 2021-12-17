@@ -1,13 +1,14 @@
 {
   "name": "food-recipe-creator",
-  "description": "Miro Innovation",
-  "productName": "Miro Innovation",
+  "description": "Vegetarian recipe creator",
+  "productName": "Vegetarian recipe creator",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "vue-cli-service lint && vue-cli-service build && firebase deploy"
   },
   "dependencies": {
     "@loadingio/loading.css": "^2.0.1",

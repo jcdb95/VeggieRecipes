@@ -1,7 +1,7 @@
 <template>
     <Hero />
     <Finder />
-    <recipes-list :class="{ 'not-showing': !list.length }" />
+    <recipes-list />
     <teleport to="#app">
         <Modal v-if="isShow" />
     </teleport>
@@ -50,14 +50,13 @@ body {
     padding-left: 1.5rem /* 24px */;
     padding-right: 1.5rem /* 24px */;
 }
-.not-showing {
-    display: none !important;
-}
+
 h1 {
     font-size: 2.25rem;
     line-height: 2.5rem;
     text-align: start;
 }
+
 p {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -82,22 +81,6 @@ input:focus {
 input::placeholder {
     font-family: 'InterLight';
 }
-
-/* .page-container {
-    display: flex;
-    height: fit-content;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: auto;
-    margin-top: auto;
-    margin: auto;
-    padding: 1.5rem;
-}
-
-.container {
-    width: 100%;
-} */
 
 .title {
     font-size: 2.25rem;

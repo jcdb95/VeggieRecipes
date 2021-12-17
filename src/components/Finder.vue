@@ -11,7 +11,6 @@
                     class="font-primary-light bg-transparent py-2 outline-none w-full"
                     v-model="query"
                     name="query"
-                    autofocus
                     placeholder="Type in something like pasta"
                 />
             </div>
@@ -82,8 +81,10 @@ export default {
             store
                 .dispatch('recipes/getRecipes')
                 .then(() => {
-                    if (store.getters['recipes/recipes'].length)
+                    if (store.getters['recipes/recipes'].length) {
+                        console.log(store.getters['recipes/recipes']);
                         document.querySelector('#recipes-list').scrollIntoView({ behavior: 'smooth' });
+                    }
                 })
                 .catch(err => {
                     console.log(err);
@@ -94,8 +95,10 @@ export default {
             store
                 .dispatch('recipes/getRecipesPlanB')
                 .then(() => {
-                    if (store.getters['recipes/recipes'].length)
+                    if (store.getters['recipes/recipes'].length) {
+                        console.log(store.getters['recipes/recipes']);
                         document.querySelector('#recipes-list').scrollIntoView({ behavior: 'smooth' });
+                    }
                 })
                 .catch(err => {
                     console.log(err);
