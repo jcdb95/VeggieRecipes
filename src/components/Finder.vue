@@ -1,6 +1,6 @@
 <template>
     <div id="finder" class="container h-screen flex flex-col md:mx-auto md:items-center md:justify-center">
-        <div class="bg-white rounded-lg shadow-lg flex flex-col p-8 my-auto md:w-full md:max-w-xl">
+        <div class="bg-white rounded-lg shadow-lg flex flex-col p-4 md:p-8 my-auto md:w-full md:max-w-xl">
             <div class="font-primary-bold text-4xl text-left">
                 Let’s get <br class="md:hidden" />
                 some recipes
