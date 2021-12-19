@@ -33,3 +33,11 @@ export function setEmail (state, data){
 	state.email = data
 }
 
+export function setShowingRecipes (state, data){
+	state.findCoolRecipes = data
+}
+
+export function setShowingRandomRecipes (state, data){
+	state.showingRandomRecipes = data
+}
+

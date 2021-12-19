@@ -1,7 +1,7 @@
 <template>
-    <div id="recipes-list" v-if="list.length" class="container md:mx-auto md:max-w-5xl py-8">
-        <div class="font-primary-bold text-4xl">
-            Here are some recipes for you:
+    <div id="recipes-list" v-if="list.length" class="container recipe-container md:mx-auto md:max-w-5xl py-8">
+        <div class="font-primary-bold text-2xl">
+            {{ checkMessage }}
         </div>
         <div
             class="grid grid-cols-1 md:grid-cols-3 md:gap-12 gap-4 my-10 md:items-center md:justify-center select-none"
@@ -56,16 +56,44 @@ import { useStore } from 'vuex';
 export default {
     setup() {
         const store = useStore();
+        const list = computed(() => store.getters['recipes/recipes']);
+        const smallTitle = title => {
+            return title.length > 40 ? title.substr(0, 40 - 1) + '...' : title;
+        };
+
+        const checkMessage = computed(() => {
+            if (store.getters['recipes/findCoolRecipes'] && store.getters['recipes/showingRandomRecipes']) {
+                return 'Here are some recipes for you:'
+            } else {
+                return `Sorry we didn't find anything with: ${store.getters['recipes/query']}. But here are some other recipes.`
+            }
+        })
+
+        const checkTheFullRecipe = link => {
+            window.open(link, '_blank');
+        };
+
+        const getRandomRecipes = () => {
+            store
+                .dispatch('recipes/getRecipesPlanB')
+                .then(() => {
+                    if (store.getters['recipes/recipes'].length) {
+                        console.log(store.getters['recipes/recipes']);
+                        document.querySelector('#recipes-list').scrollIntoView({ behavior: 'smooth' });
+                    }
+                })
+                .catch(err => {
+                    console.log(err);
+                });
+        };
 
         return {
+            checkMessage,
+            checkTheFullRecipe,
+            getRandomRecipes,
+            list,
             store,
-            list: computed(() => store.getters['recipes/recipes']),
-            checkTheFullRecipe: link => {
-                window.open(link, '_blank');
-            },
-            smallTitle: title => {
-                return title.length > 40 ? title.substr(0, 40 - 1) + '...' : title;
-            },
+            smallTitle,
         };
     },
 };

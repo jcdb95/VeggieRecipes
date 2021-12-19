@@ -1,10 +1,8 @@
-// import { setTimeout } from 'core-js';
 import axios from 'axios';
-// import test_results from './TestResult.json';
 
 export function getRecipes(context) {
+    const api = 'https://api.spoonacular.com/recipes/complexSearch';
     return new Promise((resolve, reject) => {
-        const api = 'https://api.spoonacular.com/recipes/complexSearch';
         let params = {
             apiKey: context.state.apiKey,
             query:context.state.query || '',
@@ -14,29 +12,30 @@ export function getRecipes(context) {
             maxReadyTime: context.state.inAHurry ? 20 : 45,
             intolerance: context.state.glutenFree ? "gluten" : ""
         }
-        axios.get(api, {
+        axios.get( api, {
             headers: { 
                 "Content-Type": "application/json",
-                "Accept":"application/json"
+                "Accept": "application/json"
             },
             params: params
         })
         .then((response) => {
             if(response.data.results.length){
-                context.commit('setRecipes', response.data.results)
-                // context.commit('clearFields')
+                context.commit( 'setShowingRecipes', true )
+                context.commit( 'setRecipes', response.data.results )
                 resolve(true)
             } else {
-                console.log("Going with plan B")
+                context.commit('setShowingRecipes', false)
                 context.dispatch('getRecipesPlanB')
                 .then((response) => {
                     if(!response) reject(false)
                     resolve(true)   
-                }).catch((err) => {
+                })
+                .catch( (err) => {
                     reject(err)
                 });
             }
-        }).catch((err) => {
+        }).catch( (err) => {
             reject(err)
         });
         
@@ -45,7 +44,7 @@ export function getRecipes(context) {
 
 export function getRecipesPlanB(context) {
     console.log('going with plan b')
-    return new Promise((resolve, reject) => {
+    return new Promise( (resolve, reject) => {
         const api = 'https://api.spoonacular.com/recipes/random';
         let params = {
             apiKey: context.state.apiKey,
@@ -63,8 +62,8 @@ export function getRecipesPlanB(context) {
         })
         .then((response) => {
             if(response.data.recipes.length){
+                context.commit('setShowingRandomRecipes', true)
                 context.commit('setRecipes', response.data.recipes)
-                // context.commit('clearFields')
                 resolve(true)
             }
         }).catch((err) => {

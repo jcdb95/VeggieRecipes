@@ -2,6 +2,7 @@
     <Hero />
     <Finder />
     <recipes-list />
+    <Footer />
     <teleport to="#app">
         <Modal v-if="isShow" />
     </teleport>
@@ -11,6 +12,7 @@
 import Finder from './components/Finder.vue';
 import Hero from './components/Hero.vue';
 import RecipesList from './components/RecipesList.vue';
+import Footer from './components/Footer.vue';
 import Modal from './components/Modal.vue';
 import { useStore } from 'vuex';
 import { computed } from '@vue/reactivity';
@@ -20,6 +22,7 @@ export default {
     components: {
         Hero,
         Finder,
+        Footer,
         RecipesList,
         Modal,
     },

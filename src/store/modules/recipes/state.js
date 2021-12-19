@@ -1,13 +1,15 @@
 import creds from '/src/creds.json'
 
 export default {
-	recipes:[],
-	query:'',
+	recipes: [],
+	query: '',
 	apiKey: creds.apiKey,
-	glutenFree:false,
-	vegan:false,
-	inAHurry:false,
-	showingModal:false,
-	email:null
+	glutenFree: false,
+	vegan: false,
+	inAHurry: false,
+	showingModal: false,
+	email: null,
+	findCoolRecipes: true,
+	showingRandomRecipes: false,
   };
   

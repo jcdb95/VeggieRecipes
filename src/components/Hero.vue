@@ -12,7 +12,7 @@
                     If 40% of gas emissions are due to the consumption of meat around the world, would you be able to
                     make a small change for a big difference?
                 </div>
-                <a href="#finder" v-smooth-scroll class="font-primary-regular get-button hidden md:flex">
+                <a href="#finder" v-smooth-scroll class="font-primary-regular get-button hidden md:flex get-recipes">
                     Let's get some recipes
                 </a>
             </div>

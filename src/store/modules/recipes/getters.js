@@ -38,3 +38,11 @@ export function showingModal (context) {
 export function email (context) {
 	return context.email
 }
+
+export function findCoolRecipes (context) {
+	return context.findCoolRecipes
+}
+
+export function showingRandomRecipes (context) {
+	return context.showingRandomRecipes
+}

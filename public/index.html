@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="loading.css"/>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
-      ScrollReveal({ delay: 500,  easing: "cubic-bezier(.35,.01,.17,1.33)" });
+      ScrollReveal({ delay: 300, reset: true });
     </script>
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
@@ -26,11 +26,11 @@
     <!-- built files will be auto injected -->
   </body>
   <script>
-    ScrollReveal().reveal('.hero-images', {origin: 'right'});
-    ScrollReveal().reveal('.text-hero', {origin: 'left'});
-    ScrollReveal().reveal('#action-button', {origin: 'bottom'});
-    ScrollReveal().reveal('.form-container', {delay: 700, origin: 'bottom'});
-    ScrollReveal().reveal('.recipe-container', {delay: 500, origin: 'bottom'});
+    ScrollReveal().reveal('.hero-images', { origin: 'right' });
+    ScrollReveal().reveal('.text-hero', { origin: 'left' });
+    ScrollReveal().reveal('.get-recipes', { origin: 'bottom' });
+    ScrollReveal().reveal('.form-container', { origin: 'bottom' });
+    ScrollReveal().reveal('.recipe-container', { origin: 'bottom' });
     // recipe
   </script>
 </html>
