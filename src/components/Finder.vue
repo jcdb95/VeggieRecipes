@@ -17,6 +17,7 @@
                         class="font-primary-light bg-transparent py-2 outline-none w-full"
                         v-model="query"
                         name="query"
+                        v-on:keyup.enter="getRecipes"
                         placeholder="Type in something like pasta"
                     />
                 </div>
@@ -60,7 +61,6 @@
 </template>
 
 <script>
-
 import { useStore } from 'vuex';
 import { computed, ref } from '@vue/reactivity';
 
