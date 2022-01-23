@@ -5,7 +5,7 @@ export function getRecipes(context) {
     return new Promise((resolve, reject) => {
         let params = {
             apiKey: context.state.apiKey,
-            query:context.state.query || '',
+            query: context.state.query || '',
             number: 9,
             diet: context.state.vegan ? "vegan" : "vegetarian",
             addRecipeInformation:true,

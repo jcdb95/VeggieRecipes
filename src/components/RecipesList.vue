@@ -62,12 +62,12 @@ export default {
         };
 
         const checkMessage = computed(() => {
-            if (store.getters['recipes/findCoolRecipes'] && store.getters['recipes/showingRandomRecipes']) {
-                return 'Here are some recipes for you:'
+            if (store.getters['recipes/findCoolRecipes']) {
+                return 'Here are some recipes for you:';
             } else {
-                return `Sorry we didn't find anything with: ${store.getters['recipes/query']}. But here are some other recipes.`
+                return `Sorry we didn't find anything with: ${store.getters['recipes/query']}. But here are some other recipes.`;
             }
-        })
+        });
 
         const checkTheFullRecipe = link => {
             window.open(link, '_blank');
